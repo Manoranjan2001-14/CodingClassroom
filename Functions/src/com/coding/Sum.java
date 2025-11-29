@@ -5,8 +5,16 @@ import java.util.Scanner;
 public class Sum {
     public static void main(String[] args) {
        // sum();
-        int ans = sum2();
+//        int ans = sum2();
+//        System.out.println(ans);
+
+        int ans = sum3(24, 12);
         System.out.println(ans);
+    }
+    //parameter
+    static int sum3(int a, int b){
+        int sum = a + b;
+        return sum;
     }
     //return value
     static int sum2(){
