@@ -10,7 +10,10 @@ public class Array {
         arr[2] = 33;
         arr[3] = 456;
         arr[4] = 45;
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
 
     }
 }
